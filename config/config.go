@@ -9,6 +9,7 @@ type Server struct {
 	System System `mapstructure:"system" json:"system" yaml:"system"`
 	Redis  Redis  `mapstructure:"redis" json:"redis" yaml:"redis"`
 	Mongo  Mongo  `json:"mongo" yaml:"mongo" mapstructure:"mongo"`
+	Email  Email  `mapstructure:"email" json:"email" yaml:"email"`
 
 	//gorm
 	Mysql  Mysql           `mapstructure:"mysql" json:"mysql" yaml:"mysql"`

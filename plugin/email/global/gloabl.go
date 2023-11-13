@@ -1,5 +1,7 @@
 package global
 
-import "study_gva/utils/plugin/config"
+import (
+	"study_gva/plugin/email/config"
+)
 
 var GlobalConfig = new(config.Email)
