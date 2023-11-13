@@ -1,8 +1,10 @@
 package router
 
 import (
-	"github.com/gin-gonic/gin"
 	"study_gva/middleware"
+	"study_gva/plugin/email/api"
+
+	"github.com/gin-gonic/gin"
 )
 
 type EmailRouter struct{}
