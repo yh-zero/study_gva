@@ -11,7 +11,7 @@ type Server struct {
 	Mongo  Mongo  `json:"mongo" yaml:"mongo" mapstructure:"mongo"`
 	Email  Email  `mapstructure:"email" json:"email" yaml:"email"`
 
-	//gorm
+	// gorm
 	Mysql  Mysql           `mapstructure:"mysql" json:"mysql" yaml:"mysql"`
 	Pgsql  Pgsql           `mapstructure:"pgsql" json:"pgsql" yaml:"pgsql"`
 	Oracle Oracle          `mapstructure:"oracle" json:"oracle" yaml:"oracle"`
@@ -20,4 +20,7 @@ type Server struct {
 	DBList []SpecializedDB `mapstructure:"db-list" json:"db-list" yaml:"db-list"`
 
 	Timer Timer `mapstructure:"timer" json:"timer" yaml:"timer"`
+
+	// oss
+	Local Local `mapstructure:"local" json:"local" yaml:"local"`
 }
