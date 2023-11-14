@@ -1,0 +1,47 @@
+system:
+    env: local  # 修改为public可以关闭路由日志输出
+    db-type: mysql
+    oss-type: local  # 控制oss选择走本地还是 七牛等其他仓 自行增加其他oss仓可以在 server/utils/upload/upload.go 中 NewOss函数配置
+    router-prefix: ""
+    addr: 8822
+    iplimit-count: 15000 # IP限制次数 一个小时15000次
+    iplimit-time: 3600  #  IP限制一个小时
+    use-multipoint: false
+    use-redis: false
+    use-mongo: false
+# jwt configuration
+jwt:
+    signing-key: qmPlus
+    expires-time: 7d
+    buffer-time: 1d
+    issuer: qmPlus
+local:
+    path: pkg/uploads/file
+    store-path: pkg/uploads/file
+zap:
+    level: info
+    prefix: '[study_gva]'
+    format: console
+    director: pkg/log
+    encode-level: LowercaseColorLevelEncoder
+    stacktrace-key: stacktrace
+    max-age: 0
+    show-line: true
+    log-in-console: true
+captcha:
+    key-long: 6
+    img-width: 240
+    img-height: 80
+    open-captcha: 0
+    open-captcha-timeout: 3600
+mysql:
+    path: ""
+    port: ""
+    config: ""
+    db-name: ""
+    username: ""
+    password: ""
+    max-idle-conns: 10
+    max-open-conns: 100
+    log-mode: ""
+    log-zap: false

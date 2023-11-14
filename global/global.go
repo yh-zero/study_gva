@@ -1,7 +1,6 @@
 package global
 
 import (
-	"github.com/songzhibin97/gkit/cache/singleflight"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
 
@@ -11,6 +10,7 @@ import (
 	"github.com/qiniu/qmgo"
 	"github.com/redis/go-redis/v9"
 	"github.com/songzhibin97/gkit/cache/local_cache"
+	"github.com/songzhibin97/gkit/cache/singleflight"
 	"github.com/spf13/viper"
 )
 

@@ -1,0 +1,232 @@
+
+[study_gva]2023/11/14 - 11:44:32.531	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 11:44:32.538	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 11:44:32.544	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 11:55:45.004	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 11:55:45.012	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 11:55:45.014	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 11:55:55.475	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:57:39.742	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 11:57:39.781	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 11:57:39.783	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 11:57:45.993	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:57:48.313	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:57:48.670	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:57:48.839	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:57:48.991	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:26.467	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 11:58:26.473	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 11:58:26.482	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 11:58:35.393	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:38.337	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:39.040	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:39.305	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:39.530	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:39.801	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:40.009	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:40.585	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:40.809	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:42.026	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:46.273	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:46.609	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:46.896	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:47.096	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:47.305	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:47.513	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:47.816	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:48.009	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:48.194	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:48.416	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:48.648	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:48.848	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:58:49.072	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 11:59:24.742	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 12:16:08.714	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 12:16:10.717	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 12:16:14.881	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 12:17:19.803	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 12:17:20.582	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 12:17:32.048	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 12:19:59.028	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 12:19:59.985	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 14:21:19.354	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 14:21:19.359	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 14:21:19.365	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 14:21:50.168	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 14:21:51.803	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:14	======= CheckDB===== 
+[study_gva]2023/11/14 - 14:21:51.804	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:24	前往初始化数据库
+[study_gva]2023/11/14 - 14:54:52.201	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 14:54:52.242	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 14:54:52.276	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 14:56:02.066	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 14:56:03.074	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:14	======= CheckDB===== 
+[study_gva]2023/11/14 - 14:56:03.075	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:24	前往初始化数据库
+[study_gva]2023/11/14 - 16:13:58.326	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 16:13:58.337	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 16:13:58.363	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 16:14:01.506	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 16:14:03.003	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 16:14:04.375	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:40	======= CheckDB===== 
+[study_gva]2023/11/14 - 16:14:04.375	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:50	前往初始化数据库
+[study_gva]2023/11/14 - 16:14:11.777	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 16:14:13.231	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:40	======= CheckDB===== 
+[study_gva]2023/11/14 - 16:14:13.231	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:50	前往初始化数据库
+[study_gva]2023/11/14 - 16:14:32.451	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:16	======= InitDB===== 
+[study_gva]2023/11/14 - 16:15:03.053	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:16	======= InitDB===== 
+[study_gva]2023/11/14 - 16:16:53.901	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:16	======= InitDB===== 
+[study_gva]2023/11/14 - 16:17:06.239	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:16	======= InitDB===== 
+[study_gva]2023/11/14 - 16:18:31.350	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 16:18:31.356	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 16:18:31.357	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 16:18:34.796	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:16	======= InitDB===== 
+[study_gva]2023/11/14 - 16:21:55.620	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:16	======= InitDB===== 
+[study_gva]2023/11/14 - 16:22:26.971	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:16	======= InitDB===== 
+[study_gva]2023/11/14 - 16:35:30.577	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 16:35:30.584	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 16:35:30.594	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 16:35:40.642	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:16	======= InitDB===== 
+[study_gva]2023/11/14 - 16:38:40.970	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:16	======= InitDB===== 
+[study_gva]2023/11/14 - 16:40:06.598	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 16:40:06.604	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 16:40:06.614	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 16:40:26.222	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:16	======= InitDB===== 
+[study_gva]2023/11/14 - 16:44:50.433	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 16:44:50.440	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 16:44:50.452	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 16:45:37.934	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 16:45:37.943	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 16:45:37.944	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 16:45:52.654	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:16	======= InitDB===== 
+[study_gva]2023/11/14 - 16:46:50.492	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 16:46:52.673	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:40	======= CheckDB===== 
+[study_gva]2023/11/14 - 16:46:52.674	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:50	前往初始化数据库
+[study_gva]2023/11/14 - 16:46:56.187	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:16	======= InitDB===== 
+[study_gva]2023/11/14 - 16:47:23.737	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 16:47:26.803	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:40	======= CheckDB===== 
+[study_gva]2023/11/14 - 16:47:26.803	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:50	前往初始化数据库
+[study_gva]2023/11/14 - 16:47:28.954	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:16	======= InitDB===== 
+[study_gva]2023/11/14 - 17:42:46.568	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 17:42:46.575	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 17:42:46.587	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 17:43:43.842	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 17:43:43.848	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 17:43:43.865	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 17:45:21.148	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 17:45:21.153	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 17:45:21.158	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8826"}
+[study_gva]2023/11/14 - 17:47:49.231	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 17:47:49.237	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 17:47:49.239	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 17:47:54.668	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 17:47:57.882	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:42	======= CheckDB===== 
+[study_gva]2023/11/14 - 17:47:57.883	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:52	前往初始化数据库
+[study_gva]2023/11/14 - 17:48:03.886	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 17:48:17.204	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 17:48:18.109	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:04:06.082	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:04:06.088	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:04:06.089	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:24:59.300	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:24:59.306	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:24:59.322	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:25:47.229	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:25:47.236	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:25:47.242	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:26:02.252	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 18:26:03.803	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:42	======= CheckDB===== 
+[study_gva]2023/11/14 - 18:26:03.804	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:52	前往初始化数据库
+[study_gva]2023/11/14 - 18:26:10.935	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:26:40.153	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:27:41.911	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:27:41.917	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:27:41.924	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:28:02.611	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 18:28:03.789	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/14 - 18:28:05.764	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:42	======= CheckDB===== 
+[study_gva]2023/11/14 - 18:28:05.765	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:52	前往初始化数据库
+[study_gva]2023/11/14 - 18:28:10.317	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:29:38.423	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:32:11.384	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:32:11.390	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:32:11.403	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:32:25.223	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:32:25.229	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:32:25.237	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:32:32.232	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:33:52.534	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:33:52.539	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:33:52.556	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:34:00.172	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:34:17.532	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:35:57.467	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:35:57.477	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:35:57.487	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:36:17.030	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:36:34.041	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:38:04.793	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:38:04.801	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:38:04.816	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:38:06.958	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:38:06.967	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:38:06.969	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:38:11.650	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:38:11.659	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:38:11.668	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:38:29.821	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:38:29.829	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:38:29.832	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:38:43.871	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:38:43.882	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:38:43.891	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:38:53.497	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:42:28.318	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:42:28.324	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:42:28.330	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:42:48.202	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:43:13.993	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:43:37.051	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:43:37.057	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:43:37.073	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:43:40.648	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:47:05.788	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:47:05.793	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:47:05.796	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:47:07.918	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:47:14.864	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:48:26.684	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:48:26.690	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:48:26.692	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:48:29.888	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:50:42.295	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:50:42.301	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:50:42.317	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:50:48.064	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:50:51.392	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:51:16.549	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:51:16.555	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:51:16.562	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:51:27.010	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:55:44.607	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:55:44.615	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:55:44.618	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:55:49.105	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:56:08.170	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:56:08.177	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:56:08.181	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:56:15.641	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:18	======= InitDB===== 
+[study_gva]2023/11/14 - 18:59:08.014	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 18:59:08.021	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 18:59:08.035	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 18:59:10.121	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:19	======= InitDB===== 
+[study_gva]2023/11/14 - 19:01:00.552	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 19:01:00.559	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 19:01:00.575	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 19:01:04.601	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:19	======= InitDB===== 
+[study_gva]2023/11/14 - 19:04:56.149	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 19:04:56.155	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 19:04:56.162	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 19:05:00.257	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:19	======= InitDB===== 
+[study_gva]2023/11/14 - 19:07:05.274	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:50	register swagger handler
+[study_gva]2023/11/14 - 19:07:05.281	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:64	router register success
+[study_gva]2023/11/14 - 19:07:05.292	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/14 - 19:07:24.851	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:19	======= InitDB===== 

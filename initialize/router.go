@@ -4,11 +4,11 @@ import (
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"net/http"
+	"study_gva/docs"
 
 	"study_gva/global"
 	"study_gva/router"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/docs"
 	"github.com/gin-gonic/gin"
 )
 

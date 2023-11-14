@@ -26,13 +26,13 @@ func Viper(path ...string) *viper.Viper {
 				switch gin.Mode() {
 				case gin.DebugMode:
 					config = internal.ConfigDefaultFile
-					fmt.Printf("您正在使用gin模式的%s环境名称，config的路径为%s\n", gin.EnvGinMode, internal.ConfigDefaultFile)
+					fmt.Printf("您正在使用gin-DebugMode模式的%s环境名称，config的路径为%s\n", gin.EnvGinMode, internal.ConfigDefaultFile)
 				case gin.ReleaseMode:
 					config = internal.ConfigReleaseFile
-					fmt.Printf("您正在使用gin模式的%s环境名称,config的路径为%s\n", gin.EnvGinMode, internal.ConfigReleaseFile)
+					fmt.Printf("您正在使用gin-ReleaseMode模式的%s环境名称,config的路径为%s\n", gin.EnvGinMode, internal.ConfigReleaseFile)
 				case gin.TestMode:
 					config = internal.ConfigTestFile
-					fmt.Printf("您正在使用gin模式的%s环境名称,config的路径为%s\n", gin.EnvGinMode, internal.ConfigTestFile)
+					fmt.Printf("您正在使用gin-TestMode模式的%s环境名称,config的路径为%s\n", gin.EnvGinMode, internal.ConfigTestFile)
 				}
 			} else { // internal.ConfigEnv 常量存储的环境变量不为空 将值赋值于config
 				config = configEnv
