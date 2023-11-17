@@ -1,6 +1,10 @@
 package initialize
 
 import (
+	"fmt"
+	_ "github.com/go-sql-driver/mysql"
+
+	"go.uber.org/zap"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 
@@ -11,25 +15,28 @@ import (
 
 // GormMysql 初始化Mysql数据库
 func GormMysql() *gorm.DB {
+	global.GVA_LOG.Info("=========== GormMysql")
+
 	m := global.GVA_CONFIG.Mysql
 	if m.Dbname == "" {
 		return nil
 	}
 	mysqlConfig := mysql.Config{
-		DriverName:                m.Dsn(),
-		DefaultStringSize:         191,
-		SkipInitializeWithVersion: false,
+		DSN:                       m.Dsn(), // DSN data source name
+		DefaultStringSize:         191,     // string 类型字段的默认长度
+		SkipInitializeWithVersion: false,   // 根据版本自动配置
 	}
+	fmt.Println("==== m.Dsn()", m.Dsn())
 	if db, err := gorm.Open(mysql.New(mysqlConfig), internal.Gorm.Config(m.Prefix, m.Singular)); err != nil {
 		return nil
 	} else {
-		db.InstanceSet("gorm:table_options", "ENGINE"+m.Engine)
+		global.GVA_LOG.Info("=========== GormMysql:db", zap.Error(err))
+		db.InstanceSet("gorm:table_options", "ENGINE="+m.Engine)
 		sqlDB, _ := db.DB()
 		sqlDB.SetMaxIdleConns(m.MaxIdleConns)
 		sqlDB.SetMaxOpenConns(m.MaxOpenConns)
 		return db
 	}
-
 }
 
 // GormMysqlByConfig 初始化Mysql数据库用过传入配置GormMysql

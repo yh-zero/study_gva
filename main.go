@@ -18,7 +18,7 @@ func main() {
 
 	initialize.Timer()
 	initialize.DBList()
-
+	global.GVA_LOG.Info("============ main")
 	if global.GVA_DB != nil {
 		initialize.RegisterTables() // 初始化表
 		// 程序结束前关闭数据库链接

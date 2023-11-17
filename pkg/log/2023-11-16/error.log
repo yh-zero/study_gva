@@ -1,0 +1,4 @@
+[study_gva]2023/11/16 - 15:50:48.723	[31merror[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:48	登陆失败! 用户名不存在或者密码错误!	{"error": "db not init"}
+[study_gva]2023/11/16 - 17:33:28.983	[31merror[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_initdb.go:35	自动创建数据库失败!	{"error": "Error 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)"}
+[study_gva]2023/11/16 - 17:40:25.778	[31merror[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:48	登陆失败! 用户名不存在或者密码错误!	{"error": "db not init"}
+[study_gva]2023/11/16 - 17:40:45.011	[31merror[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:48	登陆失败! 用户名不存在或者密码错误!	{"error": "db not init"}

@@ -5,6 +5,7 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"net/http"
 	"study_gva/docs"
+	"study_gva/middleware"
 
 	"study_gva/global"
 	"study_gva/router"
@@ -59,6 +60,11 @@ func Routers() *gin.Engine {
 	{
 		systemRouter.InitBaseRouter(PublicGroup) // 注册基础功能路由 不做鉴权
 		systemRouter.InitInitRouter(PublicGroup) // 自动初始化相关
+	}
+	PrivateGroup := Router.Group(global.GVA_CONFIG.System.RouterPrefix)
+	PrivateGroup.Use(middleware.JWTAuth()).Use(middleware.CasbinHandler())
+	{
+		systemRouter.InitMenuRouter(PrivateGroup) // 注册menu路由
 	}
 
 	global.GVA_LOG.Info("router register success")

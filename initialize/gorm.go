@@ -1,6 +1,7 @@
 package initialize
 
 import (
+	"fmt"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
 	"os"
@@ -31,7 +32,10 @@ func Gorm() *gorm.DB {
 
 // RegisterTables 注册数据库表专用
 func RegisterTables() {
+	fmt.Println("============= RegisterTables1111111")
 	db := global.GVA_DB
+	global.GVA_LOG.Info(fmt.Sprintf("1111111111111- %s", db))
+
 	err := db.AutoMigrate(
 		// 系统模块表
 		system.SysApi{},

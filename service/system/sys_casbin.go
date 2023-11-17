@@ -8,6 +8,7 @@ import (
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/model"
 	gormadapter "github.com/casbin/gorm-adapter/v3"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 type CasbinService struct{}
@@ -22,7 +23,10 @@ var (
 
 func (casbinService *CasbinService) Casbin() *casbin.SyncedCachedEnforcer {
 	once.Do(func() {
+		global.GVA_LOG.Info("-------- Casbin:1")
 		a, err := gormadapter.NewAdapterByDB(global.GVA_DB)
+		global.GVA_LOG.Info("-------- Casbin:2")
+
 		if err != nil {
 			zap.L().Error("适配数据库失败请检查casbin表是否为InnoDB引擎!", zap.Error(err))
 			return

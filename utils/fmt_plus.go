@@ -17,3 +17,7 @@ func StructToMap(obj interface{}) map[string]interface{} {
 	}
 	return data
 }
+
+func Pointer[T any](in T) (out *T) {
+	return &in
+}

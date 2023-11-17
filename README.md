@@ -16,3 +16,7 @@ mysql:
     max-open-conns: 100
     log-mode: ""
     log-zap: false
+
+
+root:123456@tcp(127.0.0.1:3306)/gva01?charset=utf8mb4&parseTime=True&loc=Local
+root:123456@tcp(127.0.0.1:3306)/gva03?charset=utf8mb4&parseTime=True&loc=Local

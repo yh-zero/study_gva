@@ -24,7 +24,6 @@ func (m MysqlInitHandler) EnsureDB(ctx context.Context, conf *request.InitDB) (n
 	fmt.Println("========= EnsureDB")
 
 	if s, ok := ctx.Value("dbtype").(string); !ok || s != "mysql" {
-		fmt.Println("========= EnsureDB", s)
 		return ctx, ErrDBTypeMismatch
 	}
 	c := conf.ToMysqlConfig()
@@ -36,8 +35,6 @@ func (m MysqlInitHandler) EnsureDB(ctx context.Context, conf *request.InitDB) (n
 	dsn := conf.MysqlEmptyDsn()
 	createSql := fmt.Sprintf("CREATE DATABASE IF NOT EXISTS `%s` DEFAULT CHARACTER SET utf8mb4 DEFAULT COLLATE utf8mb4_general_ci;", c.Dbname)
 	if err = createDatabase(dsn, "mysql", createSql); err != nil {
-		fmt.Println("=========== createDatabase", err)
-
 		return nil, err
 	} // 创建数据库
 	var db *gorm.DB
@@ -57,13 +54,13 @@ func (m MysqlInitHandler) EnsureDB(ctx context.Context, conf *request.InitDB) (n
 		DefaultStringSize:         191,     // string 类型字段的默认长度
 		SkipInitializeWithVersion: true,    // 根据版本自动配置
 	}), &gorm.Config{DisableForeignKeyConstraintWhenMigrating: true}); err != nil {
-		fmt.Println("=========== gorm.Open", err)
-
 		return ctx, err
 	}
 	global.GVA_CONFIG.AutoCode.Root, _ = filepath.Abs("..")
+	fmt.Println("========= EnsureDB:db", db)
+
 	next = context.WithValue(next, "db", db)
-	return ctx, err
+	return next, err
 }
 
 // WriteConfig mysql回写配置
@@ -86,7 +83,7 @@ func (m MysqlInitHandler) InitTables(ctx context.Context, inits initSlice) error
 	return createTables(ctx, inits)
 }
 
-func (m MysqlInitHandler) InitData(ctx context.Context, inits initSlice) error {
+func (h MysqlInitHandler) InitData(ctx context.Context, inits initSlice) error {
 	next, cancel := context.WithCancel(ctx)
 	defer func(c func()) { c() }(cancel)
 	for _, init := range inits {
@@ -104,7 +101,6 @@ func (m MysqlInitHandler) InitData(ctx context.Context, inits initSlice) error {
 	}
 	color.Info.Printf(InitSuccess, Mysql)
 	return nil
-
 }
 
 func NewMysqlInitHandler() *MysqlInitHandler {

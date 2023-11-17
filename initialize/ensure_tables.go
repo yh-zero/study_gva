@@ -2,34 +2,62 @@ package initialize
 
 import (
 	"context"
-	"fmt"
 	"gorm.io/gorm"
 
-	systemModel "study_gva/model/system"
+	"study_gva/model/example"
+	sysModel "study_gva/model/system"
 	"study_gva/service/system"
+
+	adapter "github.com/casbin/gorm-adapter/v3"
 )
 
 const initOrderEnsureTables = system.InitOrderExternal - 1
 
-type ensureTables struct{}
+type ensureTables_ struct{}
 
 // auto run
 func init() {
-	fmt.Println("------ ensure_tables ----")
-	system.RegisterInit(initOrderEnsureTables, &ensureTables{})
+	system.RegisterInit(initOrderEnsureTables, &ensureTables_{})
 }
 
-func (e ensureTables) InitializerName() string {
+func (ensureTables_) InitializerName() string {
 	return "ensure_tables_created"
 }
+func (e *ensureTables_) InitializeData(ctx context.Context) (next context.Context, err error) {
+	return ctx, nil
+}
 
-func (e ensureTables) MigrateTable(ctx context.Context) (next context.Context, err error) {
+func (e *ensureTables_) DataInserted(ctx context.Context) bool {
+	return true
+}
+
+func (e *ensureTables_) MigrateTable(ctx context.Context) (context.Context, error) {
 	db, ok := ctx.Value("db").(*gorm.DB)
 	if !ok {
 		return ctx, system.ErrMissingDBContext
 	}
 	tables := []interface{}{
-		systemModel.SysApi{},
+		sysModel.SysApi{},
+		sysModel.SysUser{},
+		sysModel.SysBaseMenu{},
+		sysModel.SysAuthority{},
+		sysModel.JwtBlacklist{},
+		sysModel.SysDictionary{},
+		sysModel.SysAutoCodeHistory{},
+		sysModel.SysOperationRecord{},
+		sysModel.SysDictionaryDetail{},
+		sysModel.SysBaseMenuParameter{},
+		sysModel.SysBaseMenuBtn{},
+		sysModel.SysAuthorityBtn{},
+		sysModel.SysAutoCode{},
+		sysModel.SysChatGptOption{},
+
+		adapter.CasbinRule{},
+
+		example.ExaFile{},
+		example.ExaCustomer{},
+		example.ExaFileChunk{},
+		example.ExaFileUploadAndDownload{},
 	}
 	for _, t := range tables {
 		_ = db.AutoMigrate(&t)
@@ -39,25 +67,36 @@ func (e ensureTables) MigrateTable(ctx context.Context) (next context.Context, e
 	return ctx, nil
 }
 
-func (e ensureTables) InitializeData(ctx context.Context) (next context.Context, err error) {
-	return ctx, nil
-}
-
-func (e ensureTables) TableCreated(ctx context.Context) bool {
+func (e *ensureTables_) TableCreated(ctx context.Context) bool {
 	db, ok := ctx.Value("db").(*gorm.DB)
 	if !ok {
 		return false
 	}
 	tables := []interface{}{
-		systemModel.SysApi{},
+		sysModel.SysApi{},
+		sysModel.SysUser{},
+		sysModel.SysBaseMenu{},
+		sysModel.SysAuthority{},
+		sysModel.JwtBlacklist{},
+		sysModel.SysDictionary{},
+		sysModel.SysAutoCodeHistory{},
+		sysModel.SysOperationRecord{},
+		sysModel.SysDictionaryDetail{},
+		sysModel.SysBaseMenuParameter{},
+		sysModel.SysBaseMenuBtn{},
+		sysModel.SysAuthorityBtn{},
+		sysModel.SysAutoCode{},
+		sysModel.SysChatGptOption{},
+		adapter.CasbinRule{},
+
+		example.ExaFile{},
+		example.ExaCustomer{},
+		example.ExaFileChunk{},
+		example.ExaFileUploadAndDownload{},
 	}
 	yes := true
 	for _, t := range tables {
 		yes = yes && db.Migrator().HasTable(t)
 	}
 	return yes
-}
-
-func (e ensureTables) DataInserted(ctx context.Context) bool {
-	return true
 }

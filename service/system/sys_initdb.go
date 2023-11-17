@@ -7,7 +7,6 @@ import (
 	"fmt"
 	"gorm.io/gorm"
 	"sort"
-
 	"study_gva/global"
 	"study_gva/model/system/request"
 )
@@ -67,7 +66,7 @@ var (
 
 // RegisterInit 注册要执行的初始化过程，会在 InitDB() 时调用
 func RegisterInit(order int, i SubInitializer) {
-	fmt.Println("========== RegisterInit", order, i)
+	fmt.Println("======== RegisterInit", initializers)
 
 	if initializers == nil {
 		initializers = initSlice{}
@@ -88,11 +87,11 @@ func RegisterInit(order int, i SubInitializer) {
 
 type InitDBService struct{}
 
-// 创建数据库并初始化 总入口
-func (initDbService *InitDBService) InitDB(conf request.InitDB) (err error) {
-	fmt.Println("========== InitDB", conf)
-	ctx := context.TODO()
+// InitDB 创建数据库并初始化 总入口
+func (initDBService *InitDBService) InitDB(conf request.InitDB) (err error) {
+	fmt.Println("======== InitDB", initializers)
 
+	ctx := context.TODO()
 	if len(initializers) == 0 {
 		return errors.New("无可用初始化过程，请检查初始化是否已执行完成")
 	}
@@ -101,7 +100,6 @@ func (initDbService *InitDBService) InitDB(conf request.InitDB) (err error) {
 	// 若存在多个依赖，可以写为 C=A+B, D=A+B+C, E=A+1;
 	// C必然>A|B，因此在AB之后执行，D必然>A|B|C，因此在ABC后执行，而E只依赖A，顺序与CD无关，因此E与CD哪个先执行并不影响
 	var initHandler TypedDBInitHandler
-
 	switch conf.DBType {
 	case "mysql":
 		initHandler = NewMysqlInitHandler()
@@ -116,24 +114,27 @@ func (initDbService *InitDBService) InitDB(conf request.InitDB) (err error) {
 		initHandler = NewMysqlInitHandler()
 		ctx = context.WithValue(ctx, "dbtype", "mysql")
 	}
-
 	ctx, err = initHandler.EnsureDB(ctx, &conf)
 	if err != nil {
 		return err
 	}
-	fmt.Println("=========== 1111111")
-
-	//db := ctx.Value("db").(*gorm.DB)
+	fmt.Println("1111111111")
+	fmt.Println(ctx.Value("db"))
 	db := ctx.Value("db").(*gorm.DB)
-	fmt.Println("=========== 2222")
+	fmt.Println("22222222222")
 
 	global.GVA_DB = db
+
+	global.GVA_LOG.Info("------ 333333333333")
 	if err = initHandler.InitTables(ctx, initializers); err != nil {
 		return err
 	}
+	global.GVA_LOG.Info("------ 444444")
+
 	if err = initHandler.InitData(ctx, initializers); err != nil {
 		return err
 	}
+	global.GVA_LOG.Info("------ 55555")
 
 	if err = initHandler.WriteConfig(ctx); err != nil {
 		return err
@@ -141,6 +142,25 @@ func (initDbService *InitDBService) InitDB(conf request.InitDB) (err error) {
 	initializers = initSlice{}
 	cache = map[string]*orderedInitializer{}
 	return nil
+}
+
+// createDatabase 创建数据库（ EnsureDB() 中调用 ）
+func createDatabase(dsn string, driver string, createSql string) error {
+	db, err := sql.Open(driver, dsn)
+	if err != nil {
+		return err
+	}
+	defer func(db *sql.DB) {
+		err = db.Close()
+		if err != nil {
+			fmt.Println(err)
+		}
+	}(db)
+	if err = db.Ping(); err != nil {
+		return err
+	}
+	_, err = db.Exec(createSql)
+	return err
 }
 
 // createTables 创建表（默认 dbInitHandler.initTables 行为）
@@ -160,36 +180,15 @@ func createTables(ctx context.Context, inits initSlice) error {
 	return nil
 }
 
-// createDatabase 创建数据库（ EnsureDB() 中调用 ）
-func createDatabase(dsn, driver, createSql string) error {
-	db, err := sql.Open(driver, dsn)
-	if err != nil {
-		return err
-	}
-	defer func(db *sql.DB) {
-		err = db.Close()
-		if err != nil {
-			fmt.Println(err)
-		}
-	}(db)
-
-	if err = db.Ping(); err != nil {
-		return err
-	}
-	_, err = db.Exec(createSql)
-	return err
-}
-
 /* -- sortable interface -- */
-
-func (in initSlice) Len() int {
-	return len(in)
+func (a initSlice) Len() int {
+	return len(a)
 }
 
-func (in initSlice) Less(i, j int) bool {
-	return in[i].order < in[j].order
+func (a initSlice) Less(i, j int) bool {
+	return a[i].order < a[j].order
 }
 
-func (in initSlice) Swap(i, j int) {
-	in[i], in[j] = in[j], in[i]
+func (a initSlice) Swap(i, j int) {
+	a[i], a[j] = a[j], a[i]
 }

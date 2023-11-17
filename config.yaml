@@ -1,23 +1,221 @@
-system:
-    env: local  # 修改为public可以关闭路由日志输出
-    db-type: mysql
-    oss-type: local  # 控制oss选择走本地还是 七牛等其他仓 自行增加其他oss仓可以在 server/utils/upload/upload.go 中 NewOss函数配置
-    router-prefix: ""
-    addr: 8822
-    iplimit-count: 15000 # IP限制次数 一个小时15000次
-    iplimit-time: 3600  #  IP限制一个小时
-    use-multipoint: false
-    use-redis: false
-    use-mongo: false
-# jwt configuration
+aliyun-oss:
+    access-key-id: yourAccessKeyId
+    access-key-secret: yourAccessKeySecret
+    base-path: yourBasePath
+    bucket-name: yourBucketName
+    bucket-url: yourBucketUrl
+    endpoint: yourEndpoint
+autocode:
+    server-model: /model/%s
+    server-router: /router/%s
+    server: /server
+    server-api: /api/v1/%s
+    server-plug: /plugin/%s
+    server-initialize: /initialize
+    root: G:\yanghao\code\github_code\gin-vue-admin
+    web-table: /view
+    web: /web/src
+    server-service: /service/%s
+    server-request: /model/%s/request/
+    web-api: /api
+    web-form: /view
+    transfer-restart: true
+aws-s3:
+    base-url: https://gin.vue.admin
+    bucket: xxxxx-10005608
+    disable-ssl: false
+    endpoint: ""
+    path-prefix: github.com/flipped-aurora/gin-vue-admin/server
+    region: ap-shanghai
+    s3-force-path-style: false
+    secret-id: your-secret-id
+    secret-key: your-secret-key
+captcha:
+    key-long: 6
+    img-width: 240
+    img-height: 80
+    open-captcha: 0
+    open-captcha-timeout: 3600
+cors:
+    mode: strict-whitelist
+    whitelist:
+        - allow-credentials: true
+          allow-headers: Content-Type,AccessToken,X-CSRF-Token, Authorization, Token,X-Token,X-User-Id
+          allow-methods: POST, GET
+          allow-origin: example1.com
+          expose-headers: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers, Content-Type
+        - allow-credentials: true
+          allow-headers: content-type
+          allow-methods: GET, POST
+          allow-origin: example2.com
+          expose-headers: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers, Content-Type
+db-list:
+    - type: ""
+      alias-name: ""
+      prefix: ""
+      port: ""
+      config: ""
+      db-name: ""
+      username: ""
+      password: ""
+      path: ""
+      engine: ""
+      log-mode: ""
+      max-idle-conns: 10
+      max-open-conns: 100
+      singular: false
+      log-zap: false
+      disable: true
+email:
+    to: xxx@qq.com
+    from: xxx@163.com
+    host: smtp.163.com
+    secret: xxx
+    nickname: test
+    port: 465
+    is-ssl: true
+excel:
+    dir: ./resource/excel/
+hua-wei-obs:
+    access-key: you-access-key
+    bucket: you-bucket
+    endpoint: you-endpoint
+    path: you-path
+    secret-key: you-secret-key
 jwt:
-    signing-key: qmPlus
+    signing-key: 33666272-c1b7-4572-afe3-8a0748fc37c4
     expires-time: 7d
     buffer-time: 1d
     issuer: qmPlus
 local:
     path: pkg/uploads/file
     store-path: pkg/uploads/file
+mongo:
+    coll: ""
+    options: ""
+    database: ""
+    username: ""
+    password: ""
+    min-pool-size: 0
+    max-pool-size: 100
+    socket-timeout-ms: 0
+    connect-timeout-ms: 0
+    is-zap: false
+    hosts:
+        - host: ""
+          port: ""
+mssql:
+    prefix: ""
+    port: ""
+    config: ""
+    db-name: ""
+    username: ""
+    password: ""
+    path: ""
+    engine: ""
+    log-mode: ""
+    max-idle-conns: 10
+    max-open-conns: 100
+    singular: false
+    log-zap: false
+mysql:
+    prefix: ""
+    port: "3306"
+    config: charset=utf8mb4&parseTime=True&loc=Local
+    db-name: gva03
+    username: root
+    password: "123456"
+    path: 127.0.0.1
+    engine: ""
+#    log-mode: error
+    log-mode: info
+    max-idle-conns: 10
+    max-open-conns: 100
+    singular: false
+    log-zap: false
+oracle:
+    prefix: ""
+    port: ""
+    config: ""
+    db-name: ""
+    username: ""
+    password: ""
+    path: ""
+    engine: ""
+    log-mode: ""
+    max-idle-conns: 10
+    max-open-conns: 100
+    singular: false
+    log-zap: false
+pgsql:
+    prefix: ""
+    port: ""
+    config: ""
+    db-name: ""
+    username: ""
+    password: ""
+    path: ""
+    engine: ""
+    log-mode: ""
+    max-idle-conns: 10
+    max-open-conns: 100
+    singular: false
+    log-zap: false
+qiniu:
+    access-key: ""
+    bucket: ""
+    img-path: ""
+    secret-key: ""
+    use-cdn-domains: false
+    use-https: false
+    zone: ZoneHuaDong
+redis:
+    addr: 127.0.0.1:6379
+    password: ""
+    db: 0
+sqlite:
+    prefix: ""
+    port: ""
+    config: ""
+    db-name: ""
+    username: ""
+    password: ""
+    path: ""
+    engine: ""
+    log-mode: ""
+    max-idle-conns: 10
+    max-open-conns: 100
+    singular: false
+    log-zap: false
+system:
+    env: local
+    db-type: mysql
+    oss-type: local
+    router-prefix: ""
+    addr: 8822
+    iplimit-count: 15000
+    iplimit-time: 3600
+    use-multipoint: false
+    use-redis: false
+    use-mongo: false
+tencent-cos:
+    base-url: https://gin.vue.admin
+    bucket: xxxxx-10005608
+    path-prefix: github.com/flipped-aurora/gin-vue-admin/server
+    region: ap-shanghai
+    secret-id: your-secret-id
+    secret-key: your-secret-key
+timer:
+    spec: '@daily'
+    detail:
+        - tableName: sys_operation_records
+          compareField: created_at
+          interval: 2160h
+        - tableName: jwt_blacklists
+          compareField: created_at
+          interval: 168h
+    start: true
+    with_seconds: false
 zap:
     level: info
     prefix: '[study_gva]'
@@ -28,20 +226,3 @@ zap:
     max-age: 0
     show-line: true
     log-in-console: true
-captcha:
-    key-long: 6
-    img-width: 240
-    img-height: 80
-    open-captcha: 0
-    open-captcha-timeout: 3600
-mysql:
-    path: ""
-    port: ""
-    config: ""
-    db-name: ""
-    username: ""
-    password: ""
-    max-idle-conns: 10
-    max-open-conns: 100
-    log-mode: ""
-    log-zap: false
