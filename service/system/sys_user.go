@@ -3,6 +3,7 @@ package system
 import (
 	"errors"
 	"fmt"
+	"github.com/gofrs/uuid/v5"
 	"study_gva/utils"
 
 	"study_gva/global"
@@ -35,4 +36,15 @@ func (userService *UserService) Login(u *system.SysUser) (userInter *system.SysU
 		MenuServiceApp.UserAuthorityDefaultRouter(&user)
 	}
 	return &user, err
+}
+
+// 获取用户信息
+func (userService *UserService) GetUserInfo(uuid uuid.UUID) (user system.SysUser, err error) {
+	var reqUser system.SysUser
+	err = global.GVA_DB.Preload("Authorities").Preload("Authority").First(&reqUser, "uuid = ?", uuid).Error
+	if err != nil {
+		return reqUser, err
+	}
+	MenuServiceApp.UserAuthorityDefaultRouter(&reqUser)
+	return reqUser, err
 }

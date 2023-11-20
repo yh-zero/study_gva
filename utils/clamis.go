@@ -1,6 +1,7 @@
 package utils
 
 import (
+	"github.com/gofrs/uuid/v5"
 	"study_gva/global"
 	systemReq "study_gva/model/system/request"
 
@@ -29,4 +30,18 @@ func GetUserAuthorityId(c *gin.Context) uint {
 		waitUse := claims.(*systemReq.CustomClaims)
 		return waitUse.AuthorityId
 	}
+}
+
+func GetUserUuid(c *gin.Context) uuid.UUID {
+	if claims, exists := c.Get("claims"); !exists {
+		if cl, err := GetClaims(c); err != nil {
+			return uuid.UUID{}
+		} else {
+			return cl.UUID
+		}
+	} else {
+		waitUse := claims.(*systemReq.CustomClaims)
+		return waitUse.UUID
+	}
+
 }

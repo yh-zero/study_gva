@@ -1,0 +1,36 @@
+[study_gva]2023/11/20 - 17:04:36.208	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/11/20 - 17:04:36.849	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/11/20 - 17:04:36.849	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:21	============ main
+[study_gva]2023/11/20 - 17:04:36.850	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000aa6120 0x16dbf60 false false false true false false false false 0 false map[ON CONFLICT:0x16db5c0 VALUES:0x16dbc40] 0xc000adc680 0xc000a9e6e8 map[] 0xc000a9e6f8 0xc000bcc9c0}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c3cea0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000adc680 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/11/20 - 17:04:37.822	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/11/20 - 17:04:37.824	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/11/20 - 17:04:37.824	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:70	router register success
+[study_gva]2023/11/20 - 17:04:37.827	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/20 - 17:04:57.057	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/20 - 17:05:00.856	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_captcha.go:24	==== Captcha ===
+[study_gva]2023/11/20 - 17:05:06.199	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:26	-------- Casbin:1
+[study_gva]2023/11/20 - 17:05:06.212	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:28	-------- Casbin:2
+[study_gva]2023/11/20 - 17:05:06.217	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:19	GetMenu======
+[study_gva]2023/11/20 - 17:05:21.743	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:19	GetMenu======
+[study_gva]2023/11/20 - 17:34:59.608	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/11/20 - 17:34:59.650	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/11/20 - 17:34:59.650	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:21	============ main
+[study_gva]2023/11/20 - 17:34:59.650	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc0009cc2d0 0x105c000 false false false true false false false false 0 false map[ON CONFLICT:0x105b660 VALUES:0x105bce0] 0xc000abc410 0xc0009b05d8 map[] 0xc0009b05e8 0xc000be2b40}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c573b0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000abc410 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/11/20 - 17:35:00.107	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/11/20 - 17:35:00.109	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/11/20 - 17:35:00.110	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:71	router register success
+[study_gva]2023/11/20 - 17:35:00.117	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/11/20 - 17:35:10.974	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:26	-------- Casbin:1
+[study_gva]2023/11/20 - 17:35:10.993	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:28	-------- Casbin:2
+[study_gva]2023/11/20 - 17:35:11.002	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:19	GetMenu======
+[study_gva]2023/11/20 - 17:35:11.194	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:129	GetUserInfo---------------:
+[study_gva]2023/11/20 - 17:35:21.947	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:19	GetMenu======
+[study_gva]2023/11/20 - 17:35:21.995	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:129	GetUserInfo---------------:
+[study_gva]2023/11/20 - 17:35:27.325	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:19	GetMenu======
+[study_gva]2023/11/20 - 17:35:27.386	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:129	GetUserInfo---------------:
+[study_gva]2023/11/20 - 17:35:29.923	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:19	GetMenu======
+[study_gva]2023/11/20 - 17:35:29.982	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:129	GetUserInfo---------------:
+[study_gva]2023/11/20 - 17:35:33.662	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:19	GetMenu======
+[study_gva]2023/11/20 - 17:35:33.720	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:129	GetUserInfo---------------:
+[study_gva]2023/11/20 - 17:35:44.031	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:19	GetMenu======
+[study_gva]2023/11/20 - 17:35:44.141	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:129	GetUserInfo---------------:

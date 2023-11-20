@@ -123,3 +123,17 @@ func (b *BaseApi) TokenNext(c *gin.Context, user system.SysUser) {
 		}, "登录成功", c)
 	}
 }
+
+// 获取用户信息
+func (b *BaseApi) GetUserInfo(c *gin.Context) {
+	global.GVA_LOG.Info("GetUserInfo---------------:")
+	uuid := utils.GetUserUuid(c)
+	ReqUser, err := userService.GetUserInfo(uuid)
+	if err != nil {
+		global.GVA_LOG.Error("获取失败!", zap.Error(err))
+		response.FailWithMessage("获取失败", c)
+		return
+	}
+
+	response.OkWithDetailed(gin.H{"userInfo": ReqUser}, "获取成功", c)
+}
