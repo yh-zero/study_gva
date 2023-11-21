@@ -1,11 +1,13 @@
 package system
 
 import (
-	"github.com/pkg/errors"
 	"gorm.io/gorm"
 	"strconv"
+
 	"study_gva/global"
 	"study_gva/model/system"
+
+	"github.com/pkg/errors"
 )
 
 type MenuService struct{}
@@ -94,5 +96,14 @@ func (menuService *MenuService) getChildrenList(menu *system.SysMenu, treeMap ma
 	for i := 0; i < len(menu.Children); i++ {
 		err = menuService.getChildrenList(&menu.Children[i], treeMap)
 	}
+	return err
+}
+
+// 为角色添加menu树
+func (MenuService *MenuService) AddMenuAuthority(menus []system.SysBaseMenu, authorityId uint) (err error) {
+	var auth system.SysAuthority
+	auth.AuthorityId = authorityId
+	auth.SysBaseMenus = menus
+	err = AuthorityServiceApp.SetMenuAuthority(&auth)
 	return err
 }

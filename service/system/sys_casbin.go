@@ -1,8 +1,11 @@
 package system
 
 import (
+	"errors"
 	"go.uber.org/zap"
+	"strconv"
 	"study_gva/global"
+	"study_gva/model/system/request"
 	"sync"
 
 	"github.com/casbin/casbin/v2"
@@ -57,4 +60,33 @@ func (casbinService *CasbinService) Casbin() *casbin.SyncedCachedEnforcer {
 		_ = syncedCachedEnforcer.LoadPolicy()
 	})
 	return syncedCachedEnforcer
+}
+
+func (casbinService *CasbinService) UpdateCasbin(AuthorityID uint, casbinInfos []request.CasbinInfo) error {
+	authorityId := strconv.Itoa(int(AuthorityID))
+	casbinService.ClearCasbin(0, authorityId)
+	rules := [][]string{}
+	//做权限去重处理
+	deduplicateMap := make(map[string]bool)
+	for _, v := range casbinInfos {
+		key := authorityId + v.Path + v.Method
+		if _, ok := deduplicateMap[key]; !ok {
+			deduplicateMap[key] = true
+			rules = append(rules, []string{authorityId, v.Path, v.Method})
+		}
+	}
+	e := casbinService.Casbin()
+	success, _ := e.AddPolicies(rules)
+	if !success {
+		return errors.New("存在相同api,添加失败,请联系管理员")
+	}
+	return nil
+
+}
+
+// 清除匹配的权限
+func (casbinService *CasbinService) ClearCasbin(v int, p ...string) bool {
+	e := casbinService.Casbin()
+	success, _ := e.RemoveFilteredPolicy(v, p...)
+	return success
 }

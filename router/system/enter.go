@@ -5,4 +5,6 @@ type RouterGroup struct {
 	InitRouter
 	MenuRouter
 	UserRouter
+	AuthorityRouter
+	OperationRecordRouter
 }
