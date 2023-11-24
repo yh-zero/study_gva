@@ -7,4 +7,6 @@ type RouterGroup struct {
 	UserRouter
 	AuthorityRouter
 	OperationRecordRouter
+	DictionaryRouter
+	DictionaryDetailRouter
 }

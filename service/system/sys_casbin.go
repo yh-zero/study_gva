@@ -62,6 +62,20 @@ func (casbinService *CasbinService) Casbin() *casbin.SyncedCachedEnforcer {
 	return syncedCachedEnforcer
 }
 
+// 获取权限列表
+func (casbinService *CasbinService) GetPolicyPathByAuthorityId(AuthorityID uint) (pathMaps []request.CasbinInfo) {
+	e := casbinService.Casbin()
+	authorityId := strconv.Itoa(int(AuthorityID))
+	list := e.GetFilteredPolicy(0, authorityId)
+	for _, v := range list {
+		pathMaps = append(pathMaps, request.CasbinInfo{
+			Path:   v[1],
+			Method: v[2],
+		})
+	}
+	return pathMaps
+}
+
 func (casbinService *CasbinService) UpdateCasbin(AuthorityID uint, casbinInfos []request.CasbinInfo) error {
 	authorityId := strconv.Itoa(int(AuthorityID))
 	casbinService.ClearCasbin(0, authorityId)

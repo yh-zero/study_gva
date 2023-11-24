@@ -3,6 +3,7 @@ package system
 import (
 	"gorm.io/gorm"
 	"strconv"
+	"study_gva/model/common/request"
 
 	"study_gva/global"
 	"study_gva/model/system"
@@ -26,6 +27,35 @@ func (menuService *MenuService) UserAuthorityDefaultRouter(user *system.SysUser)
 	if errors.Is(err, gorm.ErrRecordNotFound) {
 		user.Authority.DefaultRouter = "404"
 	}
+}
+
+// 查看当前角色树
+func (menuService *MenuService) GetMenuAuthority(info *request.GetAuthorityId) (menus []system.SysMenu, err error) {
+	var baseMenu []system.SysBaseMenu
+	var SysAuthorityMenus []system.SysAuthorityMenu
+	err = global.GVA_DB.Where("sys_authority_authority_id = ?", info.AuthorityId).Find(&SysAuthorityMenus).Error
+	if err != nil {
+		return
+	}
+
+	var MenuIds []string
+	for i := range SysAuthorityMenus {
+		MenuIds = append(MenuIds, SysAuthorityMenus[i].MenuId)
+	}
+	err = global.GVA_DB.Where("id in (?)", MenuIds).Order("sort").Find(&baseMenu).Error
+
+	for i := range baseMenu {
+		menus = append(menus, system.SysMenu{
+			SysBaseMenu: baseMenu[i],
+			AuthorityId: info.AuthorityId,
+			Parameters:  baseMenu[i].Parameters,
+			MenuId:      strconv.Itoa(int(baseMenu[i].ID)),
+		})
+	}
+
+	// sql := "SELECT authority_menu.keep_alive,authority_menu.default_menu,authority_menu.created_at,authority_menu.updated_at,authority_menu.deleted_at,authority_menu.menu_level,authority_menu.parent_id,authority_menu.path,authority_menu.`name`,authority_menu.hidden,authority_menu.component,authority_menu.title,authority_menu.icon,authority_menu.sort,authority_menu.menu_id,authority_menu.authority_id FROM authority_menu WHERE authority_menu.authority_id = ? ORDER BY authority_menu.sort ASC"
+	// err = global.GVA_DB.Raw(sql, authorityId).Scan(&menus).Error
+	return menus, err
 }
 
 // 获取路由总树map

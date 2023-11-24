@@ -14,6 +14,34 @@ import (
 
 type AuthorityApi struct{}
 
+// 拷贝角色
+func (a *AuthorityApi) CopyAuthority(c *gin.Context) {
+	var copyInfo systemRes.SysAuthorityCopyResponse
+	err := c.ShouldBindJSON(&copyInfo)
+	if err != nil {
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	err = utils.Verify(copyInfo, utils.OldAuthorityVerify)
+	if err != nil {
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	err = utils.Verify(copyInfo.Authority, utils.AuthorityVerify)
+	if err != nil {
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	authBack, err := authorityService.CopyAuthority(copyInfo)
+	if err != nil {
+		global.GVA_LOG.Error("拷贝失败！", zap.Error(err))
+		response.FailWithMessage("拷贝失败"+err.Error(), c)
+		return
+	}
+	response.OkWithDetailed(systemRes.SysAuthorityResponse{Authority: authBack}, "拷贝成功", c)
+
+}
+
 // 分页获取角色列表
 func (a *AuthorityApi) GetAuthorityList(c *gin.Context) {
 	var pageInfo request.PageInfo

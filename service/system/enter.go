@@ -8,4 +8,6 @@ type ServiceGroup struct {
 	InitDBService
 	MenuService
 	AuthorityService
+	DictionaryService
+	DictionaryDetailService
 }
