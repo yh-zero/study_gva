@@ -24,6 +24,20 @@ var (
 	once                 sync.Once
 )
 
+// API更新随动
+func (casbinService *CasbinService) UpdateCasbinApi(oldPath, newPath, oldMethod, newMethod string) error {
+	err := global.GVA_DB.Model(&gormadapter.CasbinRule{}).Where("v1 = ? AND v2 = ?", oldPath, oldMethod).Updates(map[string]interface{}{
+		"v1": newPath,
+		"v2": newMethod,
+	}).Error
+	e := casbinService.Casbin()
+	err = e.LoadPolicy()
+	if err != nil {
+		return err
+	}
+	return err
+}
+
 func (casbinService *CasbinService) Casbin() *casbin.SyncedCachedEnforcer {
 	once.Do(func() {
 		global.GVA_LOG.Info("-------- Casbin:1")
@@ -44,7 +58,7 @@ func (casbinService *CasbinService) Casbin() *casbin.SyncedCachedEnforcer {
 		[role_definition]
 		g = _, _
 		
-		[policy_effect]
+		[policy_effect] 
 		e = some(where (p.eft == allow))
 		
 		[matchers]

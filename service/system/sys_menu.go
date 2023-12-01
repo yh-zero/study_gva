@@ -1,6 +1,7 @@
 package system
 
 import (
+	"fmt"
 	"gorm.io/gorm"
 	"strconv"
 	"study_gva/model/common/request"
@@ -107,6 +108,40 @@ func (menuService *MenuService) getMenuTreeMap(authorityId uint) (treeMap map[st
 	}
 	return treeMap, err
 
+}
+
+// 获取基础路由树
+func (menuService *MenuService) GetBaseMenuTree() (menus []system.SysBaseMenu, err error) {
+	treeMap, err := menuService.getBaseMenuTreeMap()
+	menus = treeMap["0"]
+	fmt.Println("=== treeMap", treeMap)
+	fmt.Println("=== menu", menus)
+	for i := 0; i < len(menus); i++ {
+
+		err = menuService.getBaseChildrenList(&menus[i], treeMap)
+	}
+	return menus, err
+}
+
+// 获取菜单的子菜单
+func (menuService *MenuService) getBaseChildrenList(menu *system.SysBaseMenu, treeMap map[string][]system.SysBaseMenu) (err error) {
+
+	menu.Children = treeMap[strconv.Itoa(int(menu.ID))]
+	for i := 0; i < len(menu.Children); i++ {
+		err = menuService.getBaseChildrenList(&menu.Children[i], treeMap)
+	}
+	return err
+}
+
+// 获取路由总树map
+func (menuService *MenuService) getBaseMenuTreeMap() (treeMap map[string][]system.SysBaseMenu, err error) {
+	var allMenus []system.SysBaseMenu
+	treeMap = make(map[string][]system.SysBaseMenu)
+	err = global.GVA_DB.Order("sort").Preload("MenuBtn").Preload("Parameters").Find(&allMenus).Error
+	for _, v := range allMenus {
+		treeMap[v.ParentId] = append(treeMap[v.ParentId], v)
+	}
+	return treeMap, err
 }
 
 // 获取动态菜单树

@@ -8,11 +8,11 @@ import (
 
 type DictionaryDetailService struct{}
 
-//// 删除字典详情数据
-//func (dictionaryDetailService *DictionaryDetailService) DeleteSysDictionaryDetail(detail system.SysDictionaryDetail) (err error) {
-//	err = global.GVA_DB.Delete(&detail).Error
-//	return err
-//}
+// // 删除字典详情数据
+func (dictionaryDetailService *DictionaryDetailService) DeleteSysDictionaryDetail(detail system.SysDictionaryDetail) (err error) {
+	err = global.GVA_DB.Delete(&detail).Error
+	return err
+}
 
 // 更新字典详情数据
 func (dictionaryDetailService *DictionaryDetailService) UpdateSysDictionaryDetail(detail *system.SysDictionaryDetail) (err error) {

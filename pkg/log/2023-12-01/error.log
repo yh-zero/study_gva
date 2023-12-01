@@ -1,0 +1,2 @@
+[study_gva]2023/12/01 - 14:56:07.160	[31merror[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:46	listen tcp :8822: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[study_gva]2023/12/01 - 14:56:43.845	[31merror[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:46	listen tcp :8822: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.

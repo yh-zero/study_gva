@@ -10,4 +10,5 @@ type ServiceGroup struct {
 	AuthorityService
 	DictionaryService
 	DictionaryDetailService
+	ApiService
 }

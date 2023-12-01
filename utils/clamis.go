@@ -18,6 +18,20 @@ func GetClaims(c *gin.Context) (*systemReq.CustomClaims, error) {
 	return claims, err
 }
 
+// GetUserID 从Gin的Context中获取从jwt解析出来的用户ID
+func GetUserID(c *gin.Context) uint {
+	if claims, exists := c.Get("claims"); !exists {
+		if cl, err := GetClaims(c); err != nil {
+			return 0
+		} else {
+			return cl.BaseClaims.ID
+		}
+	} else {
+		waitUse := claims.(*systemReq.CustomClaims)
+		return waitUse.BaseClaims.ID
+	}
+}
+
 // 从Gin的Context中获取从jwt解析出来的用户角色id
 func GetUserAuthorityId(c *gin.Context) uint {
 	if claims, exists := c.Get("claims"); !exists {

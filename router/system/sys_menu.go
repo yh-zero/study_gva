@@ -13,7 +13,9 @@ func (s *MenuRouter) InitMenuRouter(Router *gin.RouterGroup) (R gin.IRouter) {
 	authorityMenuApi := v1.ApiGroupApp.SystemApiGroup.AuthorityMenuApi
 
 	{
-		menuRouterWithoutRecord.POST("getMenu", authorityMenuApi.GetMenu) // 获取菜单树
+		menuRouterWithoutRecord.POST("getMenu", authorityMenuApi.GetMenu)                   // 获取菜单树
+		menuRouterWithoutRecord.POST("getBaseMenuTree", authorityMenuApi.GetBaseMenuTree)   // 获取用户动态路由
+		menuRouterWithoutRecord.POST("getMenuAuthority", authorityMenuApi.GetMenuAuthority) // 获取指定角色menu
 	}
 	return menuRouterWithoutRecord
 }

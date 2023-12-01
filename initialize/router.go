@@ -70,6 +70,8 @@ func Routers() *gin.Engine {
 		systemRouter.InitSysOperationRecordRouter(PrivateGroup)  // 操作记录
 		systemRouter.InitSysDictionaryRouter(PrivateGroup)       // 字典
 		systemRouter.InitSysDictionaryDetailRouter(PrivateGroup) // 字典详情
+		systemRouter.InitApiRouter(PrivateGroup, PublicGroup)    // api管理
+		systemRouter.InitCasbinRouter(PrivateGroup)
 
 	}
 
