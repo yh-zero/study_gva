@@ -107,8 +107,8 @@ func (authorityService *AuthorityService) CreateAuthority(auth system.SysAuthori
 // 菜单与角色绑定
 func (authorityService *AuthorityService) SetMenuAuthority(auth *system.SysAuthority) error {
 	var s system.SysAuthority
-	global.GVA_DB.Preload("SysBaseMenus").First("authority_id = ?", auth.AuthorityId)
-	err := global.GVA_DB.Where(&s).Association("SysBaseMenus").Replace(&auth.SysBaseMenus)
+	global.GVA_DB.Preload("SysBaseMenus").First(&s, "authority_id = ?", auth.AuthorityId)
+	err := global.GVA_DB.Model(&s).Association("SysBaseMenus").Replace(&auth.SysBaseMenus)
 	return err
 }
 
@@ -158,6 +158,14 @@ func (authority *AuthorityService) DeleteAuthority(auth *system.SysAuthority) (e
 	CasbinServiceApp.ClearCasbin(0, authorityId)
 	return err
 
+}
+
+// 设置角色资源权限
+func (authorityService *AuthorityService) SetDataAuthority(auth system.SysAuthority) error {
+	var s system.SysAuthority
+	global.GVA_DB.Preload("DataAuthorityId").First(&s, "authority_id = ?", auth.AuthorityId)
+	err := global.GVA_DB.Model(&s).Association("DataAuthorityId").Replace(&auth.DataAuthorityId)
+	return err
 }
 
 // 更新一个角色对象

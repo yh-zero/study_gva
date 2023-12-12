@@ -11,4 +11,5 @@ type RouterGroup struct {
 	DictionaryDetailRouter
 	ApiRouter
 	CasbinRouter
+	AutoCodeRouter
 }

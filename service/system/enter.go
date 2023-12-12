@@ -11,4 +11,6 @@ type ServiceGroup struct {
 	DictionaryService
 	DictionaryDetailService
 	ApiService
+	BaseMenuService
+	AutoCodeService
 }

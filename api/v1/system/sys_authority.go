@@ -42,6 +42,37 @@ func (a *AuthorityApi) CopyAuthority(c *gin.Context) {
 
 }
 
+// SetDataAuthority
+// @Tags      Authority
+// @Summary   设置角色资源权限
+// @Security  ApiKeyAuth
+// @accept    application/json
+// @Produce   application/json
+// @Param     data  body      system.SysAuthority            true  "设置角色资源权限"
+// @Success   200   {object}  response.Response{msg=string}  "设置角色资源权限"
+// @Router    /authority/setDataAuthority [post]
+func (a *AuthorityApi) SetDataAuthority(c *gin.Context) {
+	var auth system.SysAuthority
+	err := c.ShouldBindJSON(&auth)
+	if err != nil {
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	err = utils.Verify(auth, utils.AuthorityIdVerify)
+	if err != nil {
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	err = authorityService.SetDataAuthority(auth)
+	if err != nil {
+		global.GVA_LOG.Error("设置失败！", zap.Error(err))
+		response.FailWithMessage("设置失败"+err.Error(), c)
+		return
+	}
+	response.OkWithMessage("设置成功", c)
+
+}
+
 // 分页获取角色列表
 func (a *AuthorityApi) GetAuthorityList(c *gin.Context) {
 	var pageInfo request.PageInfo

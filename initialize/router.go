@@ -64,14 +64,16 @@ func Routers() *gin.Engine {
 	PrivateGroup := Router.Group(global.GVA_CONFIG.System.RouterPrefix)
 	PrivateGroup.Use(middleware.JWTAuth()).Use(middleware.CasbinHandler())
 	{
+		systemRouter.InitApiRouter(PrivateGroup, PublicGroup) // api管理
+
 		systemRouter.InitMenuRouter(PrivateGroup)                // 注册menu路由
 		systemRouter.InitUserRouter(PrivateGroup)                // 注册用户路由
 		systemRouter.InitAuthorityRouter(PrivateGroup)           // 注册角色路由
 		systemRouter.InitSysOperationRecordRouter(PrivateGroup)  // 操作记录
 		systemRouter.InitSysDictionaryRouter(PrivateGroup)       // 字典
 		systemRouter.InitSysDictionaryDetailRouter(PrivateGroup) // 字典详情
-		systemRouter.InitApiRouter(PrivateGroup, PublicGroup)    // api管理
 		systemRouter.InitCasbinRouter(PrivateGroup)
+		systemRouter.InitAutoCodeRouter(PrivateGroup) // 自动化代码
 
 	}
 

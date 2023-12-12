@@ -184,3 +184,12 @@ func NotEmpty() string {
 func regexpMatch(rule, matchStr string) bool {
 	return regexp.MustCompile(rule).MatchString(matchStr)
 }
+
+// @author: [piexlmax](https://github.com/piexlmax)
+// @function: Ge
+// @description: 大于等于入参(>=) 如果为string array Slice则为长度比较 如果是 int uint float 则为数值比较
+// @param: mark string
+// @return: string
+func Ge(mark string) string {
+	return "ge=" + mark
+}

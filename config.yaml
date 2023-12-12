@@ -8,7 +8,7 @@ aliyun-oss:
 autocode:
     server-model: /model/%s
     server-router: /router/%s
-    server: /server
+    server: /study_gva
     server-api: /api/v1/%s
     server-plug: /plugin/%s
     server-initialize: /initialize

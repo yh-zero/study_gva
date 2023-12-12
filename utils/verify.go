@@ -9,4 +9,7 @@ var (
 	IdVerify           = Rules{"ID": []string{NotEmpty()}}
 	RegisterVerify     = Rules{"Username": {NotEmpty()}, "NickName": {NotEmpty()}, "Password": {NotEmpty()}, "AuthorityId": {NotEmpty()}}
 	ApiVerify          = Rules{"Path": {NotEmpty()}, "Description": {NotEmpty()}, "ApiGroup": {NotEmpty()}, "Method": {NotEmpty()}}
+	MenuVerify         = Rules{"Path": {NotEmpty()}, "ParentId": {NotEmpty()}, "Name": {NotEmpty()}, "Component": {NotEmpty()}, "Sort": {Ge("0")}}
+	MenuMetaVerify     = Rules{"Title": {NotEmpty()}}
+	AutoPackageVerify  = Rules{"PackageName": {NotEmpty()}}
 )

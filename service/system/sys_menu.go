@@ -164,8 +164,28 @@ func (menuService *MenuService) getChildrenList(menu *system.SysMenu, treeMap ma
 	return err
 }
 
+// 获取路由分页
+func (menuService *MenuService) GetInfoList() (list interface{}, total int64, err error) {
+	var menuList []system.SysBaseMenu
+	treeMap, err := menuService.getBaseMenuTreeMap()
+	menuList = treeMap["0"]
+	for i := 0; i < len(menuList); i++ {
+		err = menuService.getBaseChildrenList(&menuList[i], treeMap)
+	}
+	return menuList, total, err
+
+}
+
+// 添加基础路由
+func (menuService *MenuService) AddBaseMenu(menu system.SysBaseMenu) error {
+	if !errors.Is(global.GVA_DB.Where("name = ?", menu.Name).First(&system.SysBaseMenu{}).Error, gorm.ErrRecordNotFound) {
+		return errors.New("存在重复name, 请修改name")
+	}
+	return global.GVA_DB.Create(&menu).Error
+}
+
 // 为角色添加menu树
-func (MenuService *MenuService) AddMenuAuthority(menus []system.SysBaseMenu, authorityId uint) (err error) {
+func (menuService *MenuService) AddMenuAuthority(menus []system.SysBaseMenu, authorityId uint) (err error) {
 	var auth system.SysAuthority
 	auth.AuthorityId = authorityId
 	auth.SysBaseMenus = menus

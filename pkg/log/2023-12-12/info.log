@@ -1,0 +1,322 @@
+[study_gva]2023/12/12 - 09:38:09.985	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:84	------- dictionary.Type:int
+[study_gva]2023/12/12 - 09:38:09.985	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:84	------- dictionary.Type:float64
+[study_gva]2023/12/12 - 09:38:09.995	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:85	------- dictionary.ID:%!s(uint=0)
+[study_gva]2023/12/12 - 09:38:09.985	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:84	------- dictionary.Type:string
+[study_gva]2023/12/12 - 09:38:09.985	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:84	------- dictionary.Type:time.Time
+[study_gva]2023/12/12 - 09:38:09.985	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:84	------- dictionary.Type:bool
+[study_gva]2023/12/12 - 09:38:09.995	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:85	------- dictionary.ID:%!s(uint=0)
+[study_gva]2023/12/12 - 09:38:09.996	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:86	------- dictionary.Status:%!s(*bool=<nil>)
+[study_gva]2023/12/12 - 09:38:09.996	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:85	------- dictionary.ID:%!s(uint=0)
+[study_gva]2023/12/12 - 09:38:09.996	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:85	------- dictionary.ID:%!s(uint=0)
+[study_gva]2023/12/12 - 09:38:09.996	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:86	------- dictionary.Status:%!s(*bool=<nil>)
+[study_gva]2023/12/12 - 09:38:09.996	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:85	------- dictionary.ID:%!s(uint=0)
+[study_gva]2023/12/12 - 09:38:09.996	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:86	------- dictionary.Status:%!s(*bool=<nil>)
+[study_gva]2023/12/12 - 09:38:09.997	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:86	------- dictionary.Status:%!s(*bool=<nil>)
+[study_gva]2023/12/12 - 09:38:09.997	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:86	------- dictionary.Status:%!s(*bool=<nil>)
+[study_gva]2023/12/12 - 09:59:19.341	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:266	GetMenu======
+[study_gva]2023/12/12 - 09:59:19.363	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:286	GetUserInfo---------------:
+[study_gva]2023/12/12 - 10:16:35.344	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 10:16:35.356	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 10:16:35.357	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 10:16:35.357	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000440120 0x17be7a0 false false false true false false false false 0 false map[ON CONFLICT:0x17bde00 VALUES:0x17be480] 0xc000a445b0 0xc0001385d8 map[] 0xc0001385e8 0xc000ba6b00}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c0f710 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000a445b0 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 10:16:36.475	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 10:16:36.479	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 10:16:36.484	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 10:16:36.495	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 10:16:48.832	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 10:16:48.845	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 10:16:48.849	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:266	GetMenu======
+[study_gva]2023/12/12 - 10:16:48.870	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:286	GetUserInfo---------------:
+[study_gva]2023/12/12 - 14:49:00.467	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 14:49:00.858	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 14:49:00.859	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 14:49:00.859	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc0012381b0 0x18ca8a0 false false false true false false false false 0 false map[ON CONFLICT:0x18c9f00 VALUES:0x18ca580] 0xc001258270 0xc00010c9f0 map[] 0xc00010ca00 0xc000b05840}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000bfb4a0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc001258270 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 14:49:01.173	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 14:49:01.174	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 14:49:01.177	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 14:49:01.186	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 14:49:03.422	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 14:49:03.437	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 14:49:03.440	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:266	GetMenu======
+[study_gva]2023/12/12 - 14:49:03.456	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:286	GetUserInfo---------------:
+[study_gva]2023/12/12 - 14:52:53.402	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 14:52:53.790	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 14:52:53.791	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 14:52:53.791	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000a9e1b0 0xfba8a0 false false false true false false false false 0 false map[ON CONFLICT:0xfb9f00 VALUES:0xfba580] 0xc000b56270 0xc000a325d8 map[] 0xc000a325e8 0xc000be8b00}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c614d0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000b56270 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 14:52:54.148	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 14:52:54.150	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 14:52:54.152	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 14:52:54.162	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 14:53:02.594	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 14:53:02.606	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 15:03:35.634	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:03:35.644	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:03:35.644	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:03:35.645	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000a3c120 0xf0a8a0 false false false true false false false false 0 false map[ON CONFLICT:0xf09f00 VALUES:0xf0a580] 0xc000a748f0 0xc00013e5b8 map[] 0xc00013e5c8 0xc000bc6b00}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c2f410 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000a748f0 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:03:36.023	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:03:36.025	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:03:36.028	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:03:36.039	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:04:32.113	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 15:04:32.126	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 15:08:35.638	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:08:35.662	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:08:35.672	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:08:35.673	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc0004541b0 0xd9a8a0 false false false true false false false false 0 false map[ON CONFLICT:0xd99f00 VALUES:0xd9a580] 0xc0009fe340 0xc0001365d8 map[] 0xc0001365e8 0xc000b66b40}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000bcf590 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc0009fe340 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:08:35.987	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:08:35.989	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:08:35.991	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:08:35.995	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:08:36.706	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 15:08:36.719	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 15:11:42.875	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:11:42.887	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:11:42.887	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:11:42.887	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000a221b0 0xe4a8a0 false false false true false false false false 0 false map[ON CONFLICT:0xe49f00 VALUES:0xe4a580] 0xc000acc4e0 0xc00008c5d8 map[] 0xc00008c5e8 0xc000bdeb60}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c49620 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000acc4e0 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:11:43.266	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:11:43.268	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:11:43.271	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:11:43.276	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:14:02.875	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 15:14:02.888	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 15:14:02.892	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:14:02.892	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:15:36.329	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:15:36.343	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:15:36.343	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:15:36.343	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc0009ca120 0x1aba8a0 false false false true false false false false 0 false map[ON CONFLICT:0x1ab9f00 VALUES:0x1aba580] 0xc000a50410 0xc00012c5d8 map[] 0xc00012c5e8 0xc000bdcb40}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c498c0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000a50410 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:15:36.667	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:15:36.668	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:15:36.671	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:15:36.674	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:15:56.695	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 15:15:56.708	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 15:15:56.714	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:266	GetMenu======
+[study_gva]2023/12/12 - 15:15:56.750	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:286	GetUserInfo---------------:
+[study_gva]2023/12/12 - 15:16:39.048	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:266	GetMenu======
+[study_gva]2023/12/12 - 15:16:39.071	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:286	GetUserInfo---------------:
+[study_gva]2023/12/12 - 15:17:05.990	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:266	GetMenu======
+[study_gva]2023/12/12 - 15:17:06.008	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:286	GetUserInfo---------------:
+[study_gva]2023/12/12 - 15:18:09.972	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:18:09.973	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:18:59.501	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:18:59.501	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:20:09.720	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:20:09.733	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:20:09.733	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:20:09.734	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000996120 0x10aa8a0 false false false true false false false false 0 false map[ON CONFLICT:0x10a9f00 VALUES:0x10aa580] 0xc000a36410 0xc000a325d8 map[] 0xc000a325e8 0xc000bfcb60}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c65620 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000a36410 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:20:10.064	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:20:10.066	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:20:10.069	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:20:10.085	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:20:39.022	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:20:39.100	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:20:39.100	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:20:39.100	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000962240 0x1301d60 false false false true false false false false 0 false map[ON CONFLICT:0x13055a0 VALUES:0x1306120] 0xc001128c30 0xc000a2e5d8 map[] 0xc000a2e5e8 0xc000b32c60}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000179da0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc001128c30 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:20:39.458	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:20:39.460	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:20:39.465	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:20:39.472	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:20:50.340	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 15:20:50.353	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 15:21:14.555	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:21:14.556	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:21:37.058	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:21:37.069	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:21:37.069	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:21:37.070	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000b14120 0x1301d60 false false false true false false false false 0 false map[ON CONFLICT:0x13055a0 VALUES:0x1306120] 0xc000ab8750 0xc0009b65d8 map[] 0xc0009b65e8 0xc000ba8c40}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000173da0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000ab8750 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:21:37.379	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:21:37.381	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:21:37.384	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:21:37.387	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:21:40.273	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 15:21:40.287	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 15:22:09.625	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:22:09.626	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:22:35.741	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:22:35.741	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:23:22.016	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:23:22.016	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:23:53.169	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:23:54.737	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:27:30.344	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:27:30.345	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:27:44.065	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:27:44.065	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:29:23.242	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:29:23.242	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:29:42.523	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:29:43.112	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:34:59.535	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:34:59.548	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:34:59.548	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:34:59.549	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000a801b0 0x165a8a0 false false false true false false false false 0 false map[ON CONFLICT:0x1659f00 VALUES:0x165a580] 0xc000ad4750 0xc00013e5b8 map[] 0xc00013e5c8 0xc000bc6b00}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c432c0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000ad4750 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:34:59.858	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:34:59.860	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:34:59.864	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:34:59.870	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:35:13.425	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 15:35:13.437	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 15:35:13.442	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:35:13.442	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:35:17.673	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:266	GetMenu======
+[study_gva]2023/12/12 - 15:35:17.697	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:286	GetUserInfo---------------:
+[study_gva]2023/12/12 - 15:38:51.383	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:38:51.393	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:38:51.394	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:38:51.394	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000b3c090 0xfda8a0 false false false true false false false false 0 false map[ON CONFLICT:0xfd9f00 VALUES:0xfda580] 0xc000ae0680 0xc0001685b8 map[] 0xc0001685c8 0xc000bd6b00}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c4d710 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000ae0680 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:38:51.688	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:38:51.689	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:38:51.692	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:38:51.694	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:40:59.483	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:40:59.495	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:40:59.496	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:40:59.496	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc00044c120 0x187a9e0 false false false true false false false false 0 false map[ON CONFLICT:0x187a040 VALUES:0x187a6c0] 0xc000a800d0 0xc000aa6630 map[] 0xc000aa6640 0xc000be5860}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c4b560 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000a800d0 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:40:59.828	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:40:59.830	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:40:59.833	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:40:59.843	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:41:08.122	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 15:41:08.135	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 15:41:08.140	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:41:08.140	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:49:46.816	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:49:46.842	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:49:46.857	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:49:46.857	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000a1c1b0 0xe1a9a0 false false false true false false false false 0 false map[ON CONFLICT:0xe1a000 VALUES:0xe1a680] 0xc001324340 0xc00132c000 map[] 0xc00132c010 0xc0000918a0}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000a08570 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc001324340 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:49:48.157	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:49:48.159	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:49:48.162	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:49:48.177	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:50:14.424	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 15:50:14.438	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 15:50:14.443	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:50:14.443	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:50:26.601	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:50:26.613	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:50:26.614	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:50:26.614	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc0013941b0 0xf6a9a0 false false false true false false false false 0 false map[ON CONFLICT:0xf6a000 VALUES:0xf6a680] 0xc0013ae410 0xc00008c9f0 map[] 0xc00008ca00 0xc000bd0b40}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c393b0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc0013ae410 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:50:26.903	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:50:26.904	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:50:26.908	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:50:26.913	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:51:20.959	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 15:51:20.973	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 15:51:20.978	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:51:20.978	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:53:18.762	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:53:18.773	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:53:18.773	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:53:18.774	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000a56240 0x177a9a0 false false false true false false false false 0 false map[ON CONFLICT:0x177a000 VALUES:0x177a680] 0xc000ad4410 0xc0009ac5b8 map[] 0xc0009ac5c8 0xc000b64b00}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000bcd5c0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000ad4410 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:53:19.061	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:53:19.063	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:53:19.068	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:53:19.078	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:53:25.235	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 15:53:25.247	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 15:53:25.253	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:122	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 15:53:25.253	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 15:54:02.891	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:54:02.902	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:54:02.902	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:54:02.903	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc001242360 0x18fa9a0 false false false true false false false false 0 false map[ON CONFLICT:0x18fa000 VALUES:0x18fa680] 0xc00125a750 0xc00122e5b8 map[] 0xc00122e5c8 0xc000bbeb60}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c375c0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc00125a750 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:54:03.224	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:54:03.225	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:54:03.228	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:54:03.233	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:54:15.683	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 15:54:15.694	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 15:54:15.694	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 15:54:15.695	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc00097a1b0 0x1b1a9a0 false false false true false false false false 0 false map[ON CONFLICT:0x1b1a000 VALUES:0x1b1a680] 0xc000a981a0 0xc00008c9f0 map[] 0xc00008ca00 0xc000bceae0}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c3d5f0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000a981a0 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 15:54:15.985	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 15:54:15.986	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 15:54:15.989	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 15:54:15.993	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 15:54:21.427	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 15:54:21.443	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 15:54:21.449	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:266	GetMenu======
+[study_gva]2023/12/12 - 15:54:21.469	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:286	GetUserInfo---------------:
+[study_gva]2023/12/12 - 16:22:33.321	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:266	GetMenu======
+[study_gva]2023/12/12 - 16:22:33.346	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:286	GetUserInfo---------------:
+[study_gva]2023/12/12 - 16:22:42.862	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 16:22:42.875	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 16:22:42.875	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 16:22:42.876	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc00045c1b0 0xf1a9a0 false false false true false false false false 0 false map[ON CONFLICT:0xf1a000 VALUES:0xf1a680] 0xc000a66680 0xc00012a5b8 map[] 0xc00012a5c8 0xc000bc4ae0}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c31620 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000a66680 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 16:22:43.200	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 16:22:43.201	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 16:22:43.204	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 16:22:43.213	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 16:22:58.184	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 16:22:58.197	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 16:47:56.893	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 16:47:56.914	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 16:47:56.936	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 16:47:56.937	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc001344090 0x135a9a0 false false false true false false false false 0 false map[ON CONFLICT:0x135a000 VALUES:0x135a680] 0xc0013385b0 0xc000aaa5d8 map[] 0xc000aaa5e8 0xc000ba6b40}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c195c0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc0013385b0 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 16:47:57.256	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 16:47:57.257	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 16:47:57.260	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 16:47:57.270	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 16:47:59.799	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 16:47:59.812	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 16:48:16.476	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_menu.go:266	GetMenu======
+[study_gva]2023/12/12 - 16:48:16.510	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_user.go:286	GetUserInfo---------------:
+[study_gva]2023/12/12 - 16:49:47.601	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:126	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 16:49:47.602	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 16:52:51.837	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 16:52:51.849	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 16:52:51.850	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 16:52:51.850	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc0009fe1b0 0x183a9a0 false false false true false false false false 0 false map[ON CONFLICT:0x183a000 VALUES:0x183a680] 0xc000ab41a0 0xc000b225d8 map[] 0xc000b225e8 0xc000be0b20}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c57680 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000ab41a0 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 16:52:52.173	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 16:52:52.175	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 16:52:52.178	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 16:52:52.180	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 16:53:05.957	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 16:53:05.971	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 16:53:05.972	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 16:53:05.974	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000aec120 0x19a1f00 false false false true false false false false 0 false map[ON CONFLICT:0x19a5740 VALUES:0x19a62c0] 0xc000a66340 0xc000aa65d8 map[] 0xc000aa65e8 0xc000bb8c20}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc00017dda0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000a66340 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 16:53:06.594	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 16:53:06.596	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 16:53:06.601	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 16:53:06.609	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 16:55:17.480	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 16:55:17.494	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 16:57:23.762	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 16:57:23.777	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 16:57:23.778	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 16:57:23.779	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000ae21b0 0x19a1f00 false false false true false false false false 0 false map[ON CONFLICT:0x19a5740 VALUES:0x19a62c0] 0xc000afc4e0 0xc0009725d8 map[] 0xc0009725e8 0xc000b60c80}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000a49da0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc000afc4e0 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 16:57:24.120	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 16:57:24.123	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 16:57:24.127	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 16:57:24.130	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 16:57:42.592	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 16:57:42.606	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 16:57:42.613	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:126	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 16:57:42.614	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 17:11:18.458	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:18	=========== GormMysql
+[study_gva]2023/12/12 - 17:11:18.477	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm_mysql.go:33	=========== GormMysql:db
+[study_gva]2023/12/12 - 17:11:18.499	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/main.go:28	============ main
+[study_gva]2023/12/12 - 17:11:18.500	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:37	1111111111111- &{%!s(*gorm.Config=&{false { false <nil> false 0} false 0xc000174120 0x184a9a0 false false false true false false false false 0 false map[ON CONFLICT:0x184a000 VALUES:0x184a680] 0xc00099e410 0xc000ab25d8 map[] 0xc000ab25e8 0xc000bdcae0}) <nil> %!s(int64=0) %!s(*gorm.Statement=&{0xc000c433e0 <nil>  <nil> false <nil> {<nil> <nil> 0} map[] [] false [] [] [] map[] {{0 0} {[] {} <nil>} map[] 0} 0xc00099e410 <nil> {{}} false false {<nil> []} [] 0 [] [] []}) %!s(int=1)}
+[study_gva]2023/12/12 - 17:11:18.825	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/gorm.go:65	register table success
+[study_gva]2023/12/12 - 17:11:18.827	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:51	register swagger handler
+[study_gva]2023/12/12 - 17:11:18.830	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/initialize/router.go:80	router register success
+[study_gva]2023/12/12 - 17:11:18.844	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/core/server.go:39	server run success on 	{"address": ":8822"}
+[study_gva]2023/12/12 - 17:11:40.264	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:44	-------- Casbin:1
+[study_gva]2023/12/12 - 17:11:40.278	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_casbin.go:46	-------- Casbin:2
+[study_gva]2023/12/12 - 17:11:40.283	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:126	CreatePackageTemp ---!
+[study_gva]2023/12/12 - 17:11:40.283	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/service/system/sys_auto_code.go:38	Init ---!
+[study_gva]2023/12/12 - 17:24:05.316	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:84	------- dictionary.Type:int
+[study_gva]2023/12/12 - 17:24:05.317	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:85	------- dictionary.ID:%!s(uint=0)
+[study_gva]2023/12/12 - 17:24:05.317	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:86	------- dictionary.Status:%!s(*bool=<nil>)
+[study_gva]2023/12/12 - 17:24:05.357	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:84	------- dictionary.Type:bool
+[study_gva]2023/12/12 - 17:24:05.358	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:85	------- dictionary.ID:%!s(uint=0)
+[study_gva]2023/12/12 - 17:24:05.358	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:86	------- dictionary.Status:%!s(*bool=<nil>)
+[study_gva]2023/12/12 - 17:24:05.358	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:84	------- dictionary.Type:string
+[study_gva]2023/12/12 - 17:24:05.359	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:85	------- dictionary.ID:%!s(uint=0)
+[study_gva]2023/12/12 - 17:24:05.359	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:86	------- dictionary.Status:%!s(*bool=<nil>)
+[study_gva]2023/12/12 - 17:24:05.362	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:84	------- dictionary.Type:float64
+[study_gva]2023/12/12 - 17:24:05.362	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:84	------- dictionary.Type:time.Time
+[study_gva]2023/12/12 - 17:24:05.363	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:85	------- dictionary.ID:%!s(uint=0)
+[study_gva]2023/12/12 - 17:24:05.363	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:85	------- dictionary.ID:%!s(uint=0)
+[study_gva]2023/12/12 - 17:24:05.363	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:86	------- dictionary.Status:%!s(*bool=<nil>)
+[study_gva]2023/12/12 - 17:24:05.364	[34minfo[0m	G:/yanghao/code/github_code/gin-vue-admin/study_gva/api/v1/system/sys_dictionary.go:86	------- dictionary.Status:%!s(*bool=<nil>)

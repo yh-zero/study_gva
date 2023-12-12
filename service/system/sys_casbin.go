@@ -2,6 +2,7 @@ package system
 
 import (
 	"errors"
+	"fmt"
 	"go.uber.org/zap"
 	"strconv"
 	"study_gva/global"
@@ -58,7 +59,7 @@ func (casbinService *CasbinService) Casbin() *casbin.SyncedCachedEnforcer {
 		[role_definition]
 		g = _, _
 		
-		[policy_effect] 
+		[policy_effect]
 		e = some(where (p.eft == allow))
 		
 		[matchers]
@@ -98,9 +99,13 @@ func (casbinService *CasbinService) UpdateCasbin(AuthorityID uint, casbinInfos [
 	deduplicateMap := make(map[string]bool)
 	for _, v := range casbinInfos {
 		key := authorityId + v.Path + v.Method
+		fmt.Println("========== UpdateCasbin ============")
+		fmt.Println("key", key)
+		fmt.Println("deduplicateMap[key]", deduplicateMap[key])
 		if _, ok := deduplicateMap[key]; !ok {
 			deduplicateMap[key] = true
 			rules = append(rules, []string{authorityId, v.Path, v.Method})
+			fmt.Println("rules", rules)
 		}
 	}
 	e := casbinService.Casbin()
